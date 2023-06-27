@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Orbitron', sans-serif;
+    
+    background-color: rgb(255, 255, 255);
+}
+
+.navigation_bar{
+
+    height:48px;
+    background-color: rgb(255, 0, 0);
+    border-bottom: 3px solid rgb(0, 255, 229) ;
+    display: flex;
+    align-items: center;
+}
+
+#navbar_logo_box{
+    height:31px;
+    width:145px;
+    padding-bottom: 4.5px;
+    padding-right: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: px solid white;
+    color: white;
+    margin-left: 8px;
+
+}
+
+#navbar_logo{
+    margin-top: 15px;
+    margin-left: 11px;
+    height:30px;
+    width:100%;
+}
+
+#links{
+    margin-left: 300px;
+    height:35px;
+    width:66%;
+    border: 0px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    margin:50px;
+    color:rgb(255, 255, 255);
+    transition: 0.6s;
+    
+}
+
+
+a:hover{
+    color:aqua;
+
+}
+
+#myphoto{
+    height:360px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border: 10px solid blue;
+}
+
+section{
+    margin-top: 80px;
+    margin-left: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name{
+    font-size:68px;
+    margin-right: 10px;
+}
+
+#bio1{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+#bio2{
+    margin-top: 8px;
+    font-size: 40px;
+}
