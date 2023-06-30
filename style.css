@@ -29,6 +29,8 @@ body{
 }
 
 
+
+
 .navigation_bar{
 
     height:48px;
@@ -115,8 +117,7 @@ p{
     
 }
 
-#section2{
-    margin-top: 82px;
+footer{
     background: linear-gradient(-45deg, black, rgb(13, 33, 16), black, #10003c);
 	background-size: 200% 200%;
 	animation: gradient 15s ease infinite;
@@ -290,16 +291,47 @@ em{
 
 .about_me_section{
     border: 10px solid rgba(255, 255, 255, 0.029);
-    height:450px;
+    height:410px;
+    width: 75%;
     border-radius: 20px;
     margin-top: 90px;
     margin-left: 10px;
-    background: linear-gradient(-45deg, black, rgb(5, 0, 62), rgb(0, 0, 0), #239dd5);
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.031), rgba(140, 0, 255, 0.36), rgb(0, 0, 0), #0022ff);
 	background-size: 200% 200%;
 	animation: gradient 10s ease infinite;
+    display: flex;
 
 
 }
+
+#about_me_section_text{
+    padding-right: 80px;
+}
+
+#about_me_section_heading{
+    font-size: 70px;
+    margin-left: 50px;
+    position: relative;
+    top:7%;
+}
+
+#about_me_paragraph{
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    height:57%;
+    width:92%;
+    word-spacing: 10px;
+    text-align: left;
+}
+
+#video_section{
+    margin-right: 50px;
+    height: 335px;
+    margin-top: 43px;
+
+}
+
 
 .social_media{
     border: 10px solid rgba(255, 255, 255, 0.029);
@@ -346,4 +378,30 @@ a{
 
 .icon:hover{
     border: 8px solid rgba(255, 255, 255, 0.151);
+}
+
+#button{
+    display: inline-block;
+    border: px solid red;
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+
+button{
+    cursor: pointer;
+    height: 50px;
+    width: 160px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.029);
+    border:3px solid rgba(255, 255, 255, 0.151);
+    font-family: 'orbitron';
+    font-size: 15px;
+    transition: 0.9s;
+}
+
+button:hover{
+    background:linear-gradient(-45deg, rgb(134, 119, 119), rgb(123, 0, 0), rgb(102, 0, 128), #239dd5);
+    background-size: 200% 200%;
+	animation: gradient 10s ease infinite;
+    transition: 0.9s;
 }
