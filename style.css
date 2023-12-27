@@ -80,12 +80,7 @@ body {
 	}
 }
 
-@media screen and (max-width:430px)
-{
-    header{
-        display: none;
-    }
-}
+
 
 
 .navigation_bar{
