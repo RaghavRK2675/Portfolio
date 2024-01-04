@@ -591,8 +591,7 @@ button:hover{
 .education_box{
     border: 10px solid rgba(255, 255, 255, 0.029);
     height:102.5vh;
-    
-    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.991), rgba(0, 232, 143, 0.382), rgb(71, 14, 75), #4800ffe9);
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.031), rgba(0, 132, 255, 0.36), rgb(0, 0, 0), #0099ff);
 	background-size: 200% 200%;
 	animation: gradient 10s ease infinite;
 
