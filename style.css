@@ -5,8 +5,6 @@
 }
 
 
-
-
 .container#blur.active
 {
 filter: blur(20px);
