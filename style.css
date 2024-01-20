@@ -236,24 +236,9 @@ em{
     color: whitesmoke;
 }
 
-#instruction{
-    width:100%;
-    
-}
 
 
-.edu{
-    height:540px;
-    width:27%;
-    margin-top: 50px;
-    border-radius: 10px;
-    border:8px solid rgba(255, 255, 255, 0.029);
-    background: rgba(255, 255, 255, 0.029);
-	margin-left: 20px;
-    display: flex;
-    transition: 0.9s;
-    
-}
+
 
 #edu1{
     color:white;
@@ -286,81 +271,11 @@ em{
 }
 
 
-.school_pic_and_info
-{
-    margin-top: 30px;
-    height:300px;
-    width:280px;
-    margin-left: 32px;
-}
 
 #address{
     margin-top: 5px;
     font-size:14px;
 }
-
-.school_stats{
-    display: inline-block;
-    width:99.3%;
-    margin-top: 38px;
-    margin-left: 20px;
-    
-}
-
-.school_stats2{
-    display: inline-block;
-    width:99.3%;
-    margin-top: 15px;
-}
-
-.school_stats3{
-    
-    width:99.3%;
-    
-}
-
-#grades{
-   
-    font-size: 16px;
-    margin-right: 25px;
-    margin-bottom: 12px;
-    
-}
-
-#academic_years{
-    
-    margin-right: 20px;
-    font-size: 16px;
-    
-}
-
-#cgpa{
-    font-size: 17px;
-    margin-bottom: 12px;
-    margin-right: 12px;
-
-}
-
-#cgpa3{
-    font-size: 25px;
-    margin-left: 179px;
-}
-
-#academic_years3{
-    
-    margin-left: 10px;
-    font-size: 25px;
-    
-}
-
-#grades3{
-   
-    font-size: 25px;
-    margin-left: 28px;
-    
-}
-
-
 
 .about_me_section{
     border: 10px solid rgba(255, 255, 255, 0.029);
@@ -422,15 +337,6 @@ em{
 	animation: gradient 10s ease infinite;
 }
 
-.social_media1
-{
-    border: 10px solid rgba(255, 255, 255, 0.029);
-    height:750px;
-    
-    background: linear-gradient(-45deg, black, rgb(5, 0, 62), rgb(0, 0, 0), #239dd5);
-	background-size: 200% 200%;
-	animation: gradient 10s ease infinite;
-}
 
 
 .skillset{
@@ -572,18 +478,6 @@ button:hover{
 }
 
 
-#coming_soon_div_box
-{
-    color: white;
-    
-    align-items: center;
-}
-
-#coming_soon
-{
-    margin-top: 310px;
-    margin-bottom: 100px;
-}
 
 
 .education_box{
