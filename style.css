@@ -56,7 +56,7 @@ body {
     background: linear-gradient(-45deg, rgb(47, 0, 79), rgb(0, 30, 42), black, #00172d);
     background-size: 200% 200%;
     animation: gradient 15s ease infinite;
-    cursor: url('blue_cursor.png'), auto;
+    cursor: url('Pictures/Cursor/blue_cursor.png'), auto;
     
 }
 
